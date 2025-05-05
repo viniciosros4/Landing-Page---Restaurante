@@ -19,7 +19,7 @@ O objetivo foi criar uma landing page moderna e funcional para um restaurante, a
 
 ## 🔗 Visualização
 
-(Adicione o link caso hospede no GitHub Pages)
+https://viniciosros4.github.io/Landing-Page---Restaurante/
 
 ## 📷 Preview
 
