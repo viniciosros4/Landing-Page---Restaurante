@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Link-Css-->
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/home.css">
+    <link rel="stylesheet" href="./style/menu.css">
+    <link rel="stylesheet" href="./style/testimonials.css">
+    <link rel="stylesheet" href="./style/footer.css">
+
+    <!--Font Awsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--Scroll Reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <title>Landing-page</title>
+</head>
+<body>
+
+    <!--Barra de navegação-->
+    <header>
+        <nav id="navbar">
+            <!--logotipo-->
+            <i> <i class="fa-solid fa-burger" id="nav-logo"> Food</i>  </i>
+
+            <ul id="nav-list">
+
+                <li class="nav-item active">
+                     <a href="#home">Início</a> 
+                </li>
+
+                <li class="nav-item">
+                     <a href="#menu">Cardápio</a>
+                </li>
+
+                <li class="nav-item">
+                     <a href="#testimonials">Avaliações</a>
+                </li>
+
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+
+            <!--Botão mobile-->
+            <button id="mobile-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </nav>
+
+        <!--Menu mobile-->
+        <div id="mobile-menu">
+
+            <ul id="mobile-nav-list">
+
+                <li class="nav-item">
+                     <a href="#home">Início</a> 
+                </li>
+
+                <li class="nav-item">
+                     <a href="#menu">Cardápio</a>
+                </li>
+
+                <li class="nav-item">
+                     <a href="#testimonials">Avaliações</a>
+                </li>
+
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+
+        </div>
+    </header>
+
+    <!--Conteudo principal-->
+    <main id="content">
+        <div class="shape"></div>
+        <!-- home - principal-->
+        <section id="home">
+            <div id="cta">
+                <h1 class="title">O sabor vai até
+                    <span>você</span>
+                </h1>
+                <p class="discription">
+
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ea accusantium ipsa repudiandae nisi, commodi soluta alias necessitatibus ab quos sunt quis. Consequatur voluptate commodi exercitationem voluptas deleniti beatae minus?
+
+                </p>
+
+                <div id="cta-buttons">
+                    <a href="#menu" class="btn-default">Ver Cardápio</a>
+
+                    <a href="tel:+5515991790018" id="phone-button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"> (15) 998160904</i>
+                        </button>
+                    </a>
+                    
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div id="banner">
+                <img src="src/imagens/hero.png" alt="">
+
+            </div>
+        </section>
+
+        <!--Menu-->
+        <section id="menu">
+            <h2 class="menu-title">
+                Cardápio
+            </h2>
+            <h3 class="menu-sub-title">
+                Nosso pratos especiais
+            </h3>
+
+            <div id="dishes">
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart">  </i>
+                    </div>
+                    <img src="src/imagens/dish.png" alt="">
+
+                    <h3 class="dish-title">lorem impsum</h3>
+
+                    <span class="dish-discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dignissimos voluptates ut mollitia nostrum reprehenderit.</span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$19.99</h4>
+                        <button class="btn-default">
+                            <ic class="fa-solid fa-basket-shopping"></ic>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart">  </i>
+                    </div>
+                    <img src="src/imagens/dish2.png" alt="">
+
+                    <h3 class="dish-title">lorem impsum</h3>
+
+                    <span class="dish-discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dignissimos voluptates ut mollitia nostrum reprehenderit.</span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$19.99</h4>
+                        <button class="btn-default">
+                            <ic class="fa-solid fa-basket-shopping"></ic>
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart">  </i>
+                    </div>
+                    <img src="src/imagens/dish3.png" alt="">
+
+                    <h3 class="dish-title">lorem impsum</h3>
+
+                    <span class="dish-discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dignissimos voluptates ut mollitia nostrum reprehenderit.</span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$19.99</h4>
+                        <button class="btn-default">
+                            <ic class="fa-solid fa-basket-shopping"></ic>
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart">  </i>
+                    </div>
+                    <img src="src/imagens/dish4.png" alt="">
+
+                    <h3 class="dish-title">lorem impsum</h3>
+
+                    <span class="dish-discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dignissimos voluptates ut mollitia nostrum reprehenderit.</span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$19.99</h4>
+                        <button class="btn-default">
+                            <ic class="fa-solid fa-basket-shopping"></ic>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--testimonials-->
+        <section id="testimonials">
+            <img  id="testimonials-chef" src="src/imagens/chef.png" alt="">
+
+            <div id="testimonials-content">
+                <h2 class="menu-title">Avaliações</h2>
+                <h3 class="menu-sub-title">O que os clientes falam sobre nós ?</h3>
+
+                <div id="avaliacoes">
+                    <div class="feedback">
+                        <img  class="feedback-avatar" src="src/imagens/avatar.png" alt="">
+                        <div class="feedback-content">
+
+                        <p>
+                            Fulana
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </p>
+
+                        <p>
+                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus provident commodi aperiam molestias sunt consequuntur"
+                        </p>
+
+                        </div> 
+                    </div>
+                </div>
+
+                <div id="avaliacoes2">
+                    <div class="feedback">
+                        <img  class="feedback-avatar" src="src/imagens/avatar.png" alt="">
+                        <div class="feedback-content">
+
+                        <p>
+                            Fulana
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </p>
+
+                        <p>
+                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus provident commodi aperiam molestias sunt consequuntur"
+                        </p>
+              </div>  
+            </div>
+            <button class="btn-default">
+                Ver mais avaliações
+            </button>
+         </div>   
+        </section>
+
+        <footer id="">
+            <img src="src/imagens/wave.svg" alt="">
+
+            <div id="footer-itens">
+                <span id="copyr">
+                    &copy 2025 Vincios Rosa
+                </span>
+                
+                    <div class="social-media-buttons">
+                        <a href="">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+        </footer>
+    </main>
+    
+
+
+
+
+
+
+
+
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
