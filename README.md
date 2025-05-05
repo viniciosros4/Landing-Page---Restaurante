@@ -23,7 +23,7 @@ O objetivo foi criar uma landing page moderna e funcional para um restaurante, a
 
 ## 📷 Preview
 
-![Print do projeto](imagens/readme.png)
+![Print do projeto](src/imagens/readme.png)
 
 ## 💻 Como rodar
 
